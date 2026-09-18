@@ -143,7 +143,7 @@ window.BBUBER = {
       color: "Champagne",
       plate: "BRBN 12",
       bourbon: "Weller Special Reserve",
-      about: "Has opinions about char levels. Will share them.",
+      about: "Has opinions about Pokemon. Will share them.",
     },
     {
       name: "Andrew",
