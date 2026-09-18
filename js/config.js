@@ -154,7 +154,7 @@ window.BBUBER = {
       color: "Forest green",
       plate: "RYE 4 U",
       bourbon: "Four Roses Single Barrel",
-      about: "Truck smells like a barrel. That's on purpose.",
+      about: "Not that Andrew. The other one. Equally sober.",
     },
     {
       name: "Other Andrew",
@@ -187,7 +187,7 @@ window.BBUBER = {
       color: "Char black",
       plate: "NO CHSR",
       bourbon: "Buffalo Trace",
-      about: "Will tell you the mash bill of whatever you're drinking. Unprompted.",
+      about: "Has access to your hospital bills, and knows you know it.",
     },
     {
       name: "Alan",
@@ -198,7 +198,7 @@ window.BBUBER = {
       color: "Questionable",
       plate: "BIB 100",
       bourbon: "Old Forester 1920",
-      about: "Four years old, 100 proof, by the rules. Drives the same way.",
+      about: "Can dunk on you. Actually.",
     },
     {
       name: "Brandon",
@@ -231,7 +231,7 @@ window.BBUBER = {
       color: "Oak",
       plate: "DD 4 U",
       bourbon: "Knob Creek 9",
-      about: "Keeps a Glencairn in the cupholder. Empty. It's a reminder.",
+      about: "Drives this car like he drives a mountainbike; smooth, controlled, straight into a ditch.",
     },
     {
       name: "Joe",
@@ -253,7 +253,7 @@ window.BBUBER = {
       color: "Rickhouse red",
       plate: "WHEATD",
       bourbon: "Maker's Mark 46",
-      about: "Rates every ride like a store pick: nose, palate, finish.",
+      about: "Suggests you come hear the stereo rather than taking you to your destination.",
     },
     {
       name: "Mike",
@@ -275,7 +275,7 @@ window.BBUBER = {
       color: "Pearl",
       plate: "ANGLSHR",
       bourbon: "Blanton's (when it can be found)",
-      about: "Always takes a little off the top. Of the fare, not the bottle.",
+      about: "Provides deep cut jam band vinyl suggestions.",
     },
     {
       name: "Michael",
