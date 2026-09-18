@@ -9,8 +9,8 @@ from `main`, so a push is a deploy. Read `README.md` for the plain-English overv
 1. **All content lives in `js/config.js`.** Jokes, names, prices, places, messages and
    landing page copy go there, never hard-coded in HTML or other JS. Keep its comments
    readable by a non-developer.
-2. **Relative paths only.** The site runs at `/bbuber/` on GitHub Pages and may move to a
-   custom domain root. Never write a path starting with `/`.
+2. **Relative paths only.** The site lives at https://bbuber.dad (the `CNAME` file) and also
+   answers at the old `/bbuber/` GitHub address. Never write a path starting with `/`.
 3. **Keep it unlisted.** Every page keeps `<meta name="robots" content="noindex, nofollow">`.
    No analytics tags. Do not add the Super Data Brothers GA4 tag.
 4. **Keep the disclaimer.** The config `disclaimer` must stay visible in the landing footer,

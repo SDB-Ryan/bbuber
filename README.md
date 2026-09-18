@@ -58,20 +58,16 @@ because browsers block parts of the app when a page is opened straight from a fi
 
 The site is published by GitHub Pages from the `main` branch of the `bbuber` repository
 under the SDB-Ryan GitHub account. Pushing to `main` makes changes live in a minute or two.
-The address is https://sdb-ryan.github.io/bbuber/ and the app is at `/bbuber/app/`.
 
-**Domain: bbuber.dad** (chosen 2026-09-18, not attached yet). Once it's bought:
+**Address: https://bbuber.dad** (attached 2026-09-18). The app is at https://bbuber.dad/app/.
+The old https://sdb-ryan.github.io/bbuber/ address redirects there.
 
-1. At the domain seller, add these DNS records for the bare domain (`@`):
-   - A records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - AAAA records: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-   - A CNAME record for `www` pointing to `sdb-ryan.github.io`
-2. Only after those are in place: add a `CNAME` file containing `bbuber.dad`, set the custom
-   domain in the repo's Pages settings, and change the two `sdb-ryan.github.io/bbuber`
-   addresses in the `og:` tags at the top of `index.html` to `https://bbuber.dad/`.
-   Adding the CNAME file before the DNS records exist takes the site offline.
-3. `.dad` only works over HTTPS, so the site appears on bbuber.dad once GitHub issues its
-   certificate, usually within an hour. Then tick "Enforce HTTPS" in the Pages settings.
+How the domain is wired, in case it ever needs redoing: the `CNAME` file in this folder
+holds `bbuber.dad`, and the domain seller has these DNS records for the bare domain:
+A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`;
+AAAA records `2606:50c0:8000::153` through `2606:50c0:8003::153`; and a CNAME record for
+`www` pointing to `sdb-ryan.github.io`. `.dad` only works over HTTPS, which GitHub provides.
+Keep the domain renewed, or the site goes dark on that address.
 
 ## What it relies on
 
