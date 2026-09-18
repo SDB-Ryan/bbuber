@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>BBUber</title>
+  <meta name="description" content="Request a ride from a Milford Bourbon Boy.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BBUber">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="../css/app.css">
+</head>
+<body data-view="home">
+  <div id="map" role="application" aria-label="Map of Milford"></div>
+
+  <button id="fab" class="fab" type="button" data-action="menu" aria-label="Menu"></button>
+  <div class="brandchip" aria-hidden="true"><span>BB</span>Uber<small>Milford, MI</small></div>
+
+  <div id="pin" class="center-pin" aria-hidden="true">
+    <svg width="34" height="50" viewBox="0 0 34 50">
+      <rect x="15.5" y="26" width="3" height="22" rx="1.5" fill="#f4f1ea"/>
+      <circle cx="17" cy="16" r="15" fill="#e8a33d" stroke="#0b0b0c" stroke-width="2"/>
+      <circle cx="17" cy="16" r="5.5" fill="#0b0b0c"/>
+      <ellipse cx="17" cy="48.5" rx="5" ry="1.5" fill="rgba(0,0,0,0.5)"/>
+    </svg>
+  </div>
+
+  <section id="sheet" class="sheet" aria-live="polite"></section>
+  <section id="search" class="search-panel" hidden></section>
+  <section id="page" class="page" hidden></section>
+
+  <div id="drawer-backdrop" class="backdrop" data-action="close-drawer" hidden></div>
+  <nav id="drawer" class="drawer" aria-label="Menu" hidden></nav>
+
+  <div id="modal-backdrop" class="backdrop modal-wrap" hidden>
+    <div id="modal" class="modal" role="dialog" aria-modal="true"></div>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <noscript><p style="padding:24px">BBUber needs JavaScript. Like bourbon needs oak.</p></noscript>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/idle-routes.js"></script>
+  <script src="../vendor/leaflet/leaflet.js"></script>
+  <script src="../js/pricing.js"></script>
+  <script src="../js/geo.js"></script>
+  <script src="../js/map.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
