@@ -23,7 +23,9 @@ from `main`, so a push is a deploy. Read `README.md` for the plain-English overv
 7. **Drivers are always sober** in the copy. Jokes about bourbon are fine; jokes implying a
    driver drinks on the job are not.
 8. **No gendered pronouns** in message templates, since real friends' names get dropped in.
-9. **Publish only when Ryan says "Push".** Commit locally as you go.
+9. **Friends' houses stay street-only.** Show the street name with no house number, and keep
+   each pin about a block from the real house. The repo and site are public.
+10. **Publish only when Ryan says "Push".** Commit locally as you go.
 
 ## Layout
 
